@@ -1,6 +1,8 @@
 # Gunslinger
 A cloud resiliency tool, inspired by [Chaos Monkey](https://github.com/Netflix/SimianArmy) and written in Node.js for AWS Lambda.
 
+[![Build Status](https://travis-ci.org/wowgroup/gunslinger.svg?branch=master)](https://travis-ci.org/wowgroup/gunslinger)
+
 **Caveat Emptor:** This is still alpha software, and some actions may incur additional AWS charges.
 
 ## Usage
