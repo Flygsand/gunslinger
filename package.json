@@ -1,0 +1,32 @@
+{
+  "name": "gunslinger",
+  "description": "Cloud resiliency tool",
+  "version": "0.1.0",
+  "main": "gunslinger.js",
+  "scripts": {
+    "test": "mocha --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wowgroup/gunslinger.git"
+  },
+  "author": "WOW! Group Development <oss@wow-group.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wowgroup/gunslinger/issues"
+  },
+  "homepage": "https://github.com/wowgroup/gunslinger#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.4.2",
+    "highland": "^2.8.1",
+    "moment": "^2.14.1",
+    "node-uuid": "^1.4.7",
+    "ssh2": "^0.5.0"
+  }
+}
