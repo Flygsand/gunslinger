@@ -55,6 +55,6 @@ module.exports = (config) => {
     if (!config.armed) {
       console.warn('unarmed!');
     }
-    _.pipeline.apply(_, pl).reduce([], (es, e) => es.concat([e])).toCallback(done);
+    _.pipeline.apply(_, pl).collect().toCallback(done);
   };
 };
