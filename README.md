@@ -63,6 +63,8 @@ $ aws lambda add-permission --function-name Gunslinger --statement-id 1 --action
 $ aws events put-targets --rule GunslingerPerHourOfficeHours --targets '{"Id" : "1", "Arn": "arn:aws:lambda:us-east-1:123456789012:function:Gunslinger"}'
 ```
 
+**Pro Tip:** If you need to generate more sophisticated schedules, check out [crongen](https://github.com/wowgroup/crongen).
+
 ## Configuration
 
 
